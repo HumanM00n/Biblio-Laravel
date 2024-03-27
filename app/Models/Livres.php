@@ -15,7 +15,7 @@ class Livres extends Model
         'titre',
         'isbn',
         'auteur_id',
-        'anne_de_sortie',
+        'annee_de_sortie',
         'image',
     ];
 
