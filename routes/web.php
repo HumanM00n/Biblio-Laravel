@@ -40,3 +40,12 @@ Route::get('/connexion', [UserController::class, 'connexion']);
 Route::post('/connexion', [UserController::class, 'login']);
 
 Route::post('/logout', [UserController::class, 'logout']);
+
+// Cette route permet d'afficher le formulaire
+route::get('ajout-livre', [LivresController::class, 'index']);
+
+// Route pour valider le formulaire
+route::post('/ajout-livre', [LivresController::class, 'store']);
+
+// Route poru afficher les livres
+Route::get('/details/{id}', [LivresController::class, 'detailsLivre'])->name('details');
