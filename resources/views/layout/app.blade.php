@@ -30,7 +30,7 @@
                 </form>
             </div>
                     
-                @else {{-- SI L'UTILISATEUR EST PAS CONNECTE  --}} 
+                @else {{-- SI L'UTILISATEUR EST CONNECTE  --}} 
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end">
